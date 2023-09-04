@@ -9,21 +9,24 @@ package.name = mykivyapp
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.mykivyapp
 
-# (str) Source code where the main.py live
+# (str) Source code where the main.py lives
 source.dir = .
 
 # (list) Application requirements
 requirements = python3==3.7.6,hostpython3==3.7.6,kivy,pillow
+
+# (str) Version of your application
+version = 1.0.0  # Replace with your desired version number
 
 [buildozer]
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug)
 log_level = 2
 
-# (str) Path to build artifact storage, absolute or relative to spec file
+# (str) Path to build artifact storage, absolute or relative to the spec file
 # build_dir = ./.buildozer
 
-# (str) Path to build python (if different from system)
+# (str) Path to build python (if different from the system)
 # build_dir = /usr/bin/python3
 osx.python_version = 3
 
