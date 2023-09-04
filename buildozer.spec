@@ -13,7 +13,7 @@ package.domain = org.mykivyapp
 source.dir = .
 
 # (list) Application requirements
-requirements = kivy
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy,pillow
 
 [buildozer]
 
@@ -25,6 +25,7 @@ log_level = 2
 
 # (str) Path to build python (if different from system)
 # build_dir = /usr/bin/python3
+osx.python_version = 3
 
 [android]
 
