@@ -59,4 +59,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: mykivyapp  # Replace with your app's name
-          path: ${{ env.BUILD_DIR }}/bin/*.apk
+          path: bin/*.apk
